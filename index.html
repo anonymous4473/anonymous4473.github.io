@@ -257,6 +257,28 @@
 </section>
 <!-- End result gif -->
 
+<!-- 500 keys experiments -->
+<section class="section hero teaser">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Various keys experiment</h2>
+        <div class="grid-container">
+        <div class="grid-item"><img src="static/images/tensorf_acc.png" alt="chair"></div>
+        <div class="grid-item"><img src="static/images/vanilla_acc.png" alt="druns"></div>
+        </div>
+          <div class="content has-text-justified">
+          
+          <p>
+            Phase 1: We train the encoder and the decoder to extract messages. After training is done, we do not use the encoder. Phase 2: We fine-tune the NeRF to embed the messages into the rendered images automatically. (a) We disable auto-differentiation and render a full-resolution image in order to save memory. (b) We use DWT for the rendered images and choose the LL coefficient as the input of the pre-trained decoder. (c) We enable auto-differentiation and render the images patch by patch.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Main framework -->
+  
 
 <!-- Image carousel -->
 <!-- <section class="hero is-small">
